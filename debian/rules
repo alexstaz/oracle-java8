@@ -370,7 +370,7 @@ binary-$(p_jbin):	build
 	dh_shlibdeps \
 		-l$(basedir)/jre/lib/$(archdir)/server \
 		-Xlibnpjp2.so -Xlibavplugin-53.so -Xlibavplugin-54.so -Xlibavplugin-55.so -Xlibavplugin-56.so -Xlibavplugin-57.so -Xlibavplugin-ffmpeg-56.so -Xlibavplugin-ffmpeg-57.so -Xlibdecora_sse.so \
-		-Xlibfxplugins.so -Xlibglass.so -Xlibgstreamer-lite.so \
+		-Xlibfxplugins.so -Xlibglass.so -Xlibgstreamer-lite.so -Xlibavformat.so.58 -Xlibavcodec.so.58 \
 		-Xlibglassgtk3.so \
 		-Xlibjavafx -Xlibjfx -Xlibprism \
 		-- --warnings=0
@@ -388,7 +388,7 @@ binary-$(p_jbin):	build
 		-Xlibfontmanager -Xlibjsoundalsa \
 		-Xlibsplashscreen -Xlibmlib -Xlibdeploy \
 		-Xlibavplugin-53.so -Xlibavplugin-54.so -Xlibavplugin-55.so -Xlibavplugin-56.so -Xlibavplugin-57.so -Xlibavplugin-ffmpeg-56.so -Xlibavplugin-ffmpeg-57.so -Xlibdecora_sse.so \
-		-Xlibfxplugins.so -Xlibglass.so -Xlibgstreamer-lite.so \
+		-Xlibfxplugins.so -Xlibglass.so -Xlibgstreamer-lite.so -Xlibavformat.so.58 -Xlibavcodec.so.58 \
 		-Xlibglassgtk3.so \
 		-Xlibjavafx -Xlibjfx -Xlibprism \
 		-- --warnings=0
