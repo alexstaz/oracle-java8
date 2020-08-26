@@ -1,3 +1,10 @@
+oracle-java8 (8.261-1) stable; urgency=high
+
+  * SECURITY UPDATE:
+    - (CVE-2020-???): ????
+
+ -- Janusz Dziemidowicz <rraptorr@nails.eu.org>  Wed, 15 Jan 2020 13:20:07 +0100
+
 oracle-java8 (8.251-1) stable; urgency=high
 
   * SECURITY UPDATE:
